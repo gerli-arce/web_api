@@ -1,0 +1,25 @@
+pip install djangorestframework
+pip install markdown       # Markdown support for the browsable API.
+pip install django-filter  # Filtering support
+
+
+ver version de  django que usas : python -m django --version 
+
+crear nuevo super usuario :  python manage.py createsuperuser
+
+iniciar servidor de django : python  manage.py runserver
+
+
+migrar 1 : python manage.py makemigrations profiles_api
+
+migrar 2 : python manage.py migrate
+
+activar ejecusion de scripts = Set-ExecutionPolicy Unrestricted
+
+desactivar entorno virtual : deactivate 
+
+crear entorno virtual para trabajar con python : virtualenv -p python3 'name'
+
+exportar las librerias usadas : pip freeze > requirements.txt
+
+instalar los requirements : pip install -r .\requirements.txt
